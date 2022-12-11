@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="progress"></div>
+    <input type="button" value="Click" onclick="clickButton()">
+</body>
+<script>
+    let i = 0;
+    // Chia nhỏ xử lí cho CPU mà vẫn đảm bảo có thể thao tác trên DOM.
+    function count() {
+      do {
+        i++;
+        progress.innerHTML = i;
+      } while (i % 1e3 != 0);
+
+      if (i < 1e7) setTimeout(count);
+    }
+  
+    function clickButton() {
+        for (let index = 0; index < 1000; index++) {
+            console.log(index);
+        }
+    }
+    count();
+  </script>
+</html>
