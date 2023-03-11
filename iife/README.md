@@ -4,7 +4,8 @@
 
 - Tránh trường hợp khái báo biến ở vùng global namespace mà chỉ sử dụng 1 lần.
 
-```(() => {
+```
+(() => {
   let firstVariable;
   let secondVariable;
 })();
