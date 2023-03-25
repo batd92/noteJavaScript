@@ -7,7 +7,7 @@ Khái niệm:
 Mục đích tạo ra prototype:
    -    Mang tính kế thừa trong Javascript
    -    Truy cập vào thuộc tính đối tượng prototype chain.
-        Prototype chain là cơ chế để Javascript duyệt lại qua các cấp kế thừa thông qua __proto__ để tìm kiếm property và method được sử dụng.
+        Prototype chain là cơ chế để Javascript duyệt lại qua các cấp kế thừa thông qua ```__proto__``` để tìm kiếm property và method được sử dụng.
 
 <!-- ROADMAP -->
 ## Roadmap
