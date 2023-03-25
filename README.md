@@ -1,3 +1,15 @@
+1. Giới thiệu về prototype
+---
+    Khái niệm:
+        Prototype là cơ chế mà các object trong javascript kế thừa các tính năng từ một object khác.
+        Được hiểu như là kế thừa (inheritance) ở javascript).
+    Ứng dụng thực tiễn:
+        -   Mang tính kế thừa trong Javascript
+        -   Truy cập vào thuộc tính đối tượng prototype chain.
+            Ví dụ: const pikachu = new Object(); thì pikachu có thể truy cập được function: toString
+    
+    [](./_prototype.png)
+
 1. Khởi động thôi (đi bộ để lấy tin thần nhé), tìm giá trị biến i để thỏa mãn các điều kiện sau:
     ```
     //let i = ?
